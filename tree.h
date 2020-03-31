@@ -14,7 +14,7 @@ void print3(node *p);
 int sum(node *p, int *k);
 node* del(node* p, int x);
 void del_leaves(node* prev, node **curr);
-int deltree(node* p);
+void deltree(node* p);
 node* delless(node* p, int x);
 
 #endif // TREE_H
